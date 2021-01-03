@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+#logo {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    align-self: flex-end;
+}
+
+.jumbo {
+    background-image: url("../images/blue.jpg");
+    background-size: cover;
+    background-position: center -100px;
+    height: 90vh;
+}
+
+#jumbo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: .15em;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    border-right: .10em solid #fff;
+    white-space: nowrap;
+    animation-delay: 1s;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 65% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fff; }
+}
