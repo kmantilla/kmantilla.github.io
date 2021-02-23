@@ -49,9 +49,9 @@ nav ul a {
 
 #jumbo-text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
     font-weight: 500;
     font-size: 40px;
     line-height: 60px;
